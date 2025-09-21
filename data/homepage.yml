@@ -1,0 +1,202 @@
+head:
+  title: "Matt Dancho's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hola, Soy Rafael Camargo."
+  subtitle: "Estudiante de Ingenieria"
+  description: "Mi nombre es Rafael, tengo 19 años y actualmente soy estudiante de Ingeniería de Sistemas en la <strong><a href=\"https://www.unimagdalena.edu.co\" target=\"_blank\" rel=\"noopener\">Universidad del Magdalena</a></strong>. Me apasiona el aprendizaje constante y estoy en proceso de desarrollar mis habilidades tanto en el área tecnológica como en el ámbito académico y profesional."
+  image:
+    x: "img/showcase/computer.gif"
+    _2x: "img/showcase/computer.gif"
+  imageMobile:
+    x: "img/showcase/computer.gif"
+    _2x: "img/showcase/computer.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contactame"
+    URL: "mailto:rjcamargo@unimagdalena.edu.co"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/rafael-jose-camargo-parrao-b68011364"
+
+    - icon: "github"
+      URL: "https://github.com/Rafael21528"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/rafaelcamargo5358"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/profile.php?id=100086945235366&locale=es_LA"
+
+# about
+about:
+  enable: true
+  title: "¿Quien soy yo?"
+  content: 
+    <p class="lead">
+    <strong>Amo mi carrera y me apasiona la tecnología.</strong> Actualmente soy estudiante de Ingeniería de Sistemas en la Universidad del Magdalena. Cada día busco aprender más y crecer como persona y como futuro profesional.
+    </p>
+    <p class="lead">
+    <strong>Me gusta diseñar y trabajar en equipo,</strong> porque creo que las mejores ideas nacen cuando se comparten y se construyen en conjunto. Mi meta es convertirme en un profesional capaz de aportar soluciones innovadoras que generen valor y tengan un impacto positivo en la sociedad.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Sobre mi"
+    URL: "https://www.linkedin.com/in/rafael-jose-camargo-parrao-b68011364"
+  image:
+    x: "img/who-am-i/rp.jpg"
+    _2x: "img/who-am-i/rp.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: "Estoy iniciando mi camino profesional. Aunque aún no tengo experiencia laboral formal, desarrollo proyectos académicos y personales en Ingeniería de Sistemas, disfruto diseñar y trabajar en equipo, y estoy listo para aprender y aportar en prácticas u oportunidades donde pueda crecer como profesional."
+  image:
+    x: "img/showcase/neuronas.gif"
+    _2x: "img/showcase/neuronas.gif"
+  imageMobile:
+    x: "img/showcase/neuronas.gif"
+    _2x: "img/showcase/neuronas.gif"
+
+  
+    
+# education
+education:
+  enable: true
+  title: "Educacion"
+  items:
+    - Colegio: "Institucion Agropecuaria San Judas Tadeo"
+      year: "2012-2012"
+      degree: "Bachiller"
+
+    - university: "Universidad del Magdalena"
+      year: "2023-"
+    
+      
+
+
+# Client & Work
+client_and_work:
+  title: "Portafolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Programa que simula la administracion de un hotel"
+      description: "Este programa, desarrollado en python, simula la administracion de varios hoteles, ya sea rentando sus habitaciones, guardando los registros de los huespedes que salen y entran, sus ganancias, etc"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Ver programa"
+        URL: "https://github.com/Rafael21528/Hoteles"
+      image:
+        x: "img/works/hotel.jpg"
+        _2x: "img/works/hotel.jpg"
+      is_even: true
+
+    - title: "Programa puertas logicas"
+      description: "Este programa, hecho en java, permite realizar operaciones logicas con compuertas de manera grafica"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Ver programa"
+        URL: "https://github.com/Rafael21528/Logica-puertas"
+      image:
+        x: "img/works/logic.jpg"
+        _2x: "img/works/logic..jpg"
+      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonios"
+  items:
+  
+    - name: "Dilan Linero Mitchell"
+      position: "Amigo y compañero de clases"
+      content: "Rafael es comprometido y responsable; siempre aporta al equipo y cumple con lo que promete."
+      image:
+        x: "img/testimonials/Dilan.jpg"
+        _2x: "img/testimonials/Dilan.jpg"
+        
+    - name: "Jose Domingo"
+      position: "Amigo y compañero de clases"
+      content: "Destaca por su constancia y ganas de aprender. Es confiable y muy colaborador."
+      image:
+        x: "img/testimonials/Jose.jpg"
+        _2x: "img/testimonials/Jose.jpg"
+
+    
+
+    - name: "Maria yepez"
+      position: "Pareja Sentimental"
+      content: "Admiro su fuerza y capacidad para seguir adelante, es una persona increíble. Estoy orgullosa de el por lo que cada día hace y halogrado"
+      image:
+        x: "img/testimonials/Amor.jpg"
+        _2x: "img/testimonials/Amor.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contactar a Rafael"
+    
+  image:
+    x: "img/who-am-i/rp.jpg"
+    _2x: "img/who-am-i/rp.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Enviar mensaje"
+    btnAction: 'mailto:rjcamargo@unimagdalena.edu.co'
+    
+  phone:
+    title: "Numero de telefono:"
+    number: "3113872106"
+  email:
+    title: "Email:"
+    email: '<a href="mailto:rcamargoparrao@gmail.com">rcamargoparrao@gmail.com</a>'
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
